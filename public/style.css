@@ -1,3 +1,7 @@
+/* 
+    This class defines the styling for elements with the class 'label'. 
+    It sets the font size to 30 pixels.
+*/
 .label {
     font-size: 30px;
 }
