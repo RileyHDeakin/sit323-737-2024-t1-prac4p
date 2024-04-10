@@ -2,35 +2,59 @@
 <html>
 <head>
   <title>App</title>
+  <!-- Linking external stylesheet -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Heading and form for addition operation -->
     <h1>Addition</h1>
     <form action="/addition" method="GET">
+        <!-- Input field for the first number -->
         <input type="number" name="num1">
+        <!-- Label for the addition symbol -->
         <label class="label">+</label>
+        <!-- Input field for the second number -->
         <input type="number" name="num2">
+        <!-- Button to submit the form -->
         <button type="submit">Add</button>
     </form>
+    
+    <!-- Heading and form for subtraction operation -->
     <h1>Subtraction</h1>
     <form title="Subtract" action="/subtraction" method="GET">
+        <!-- Input field for the first number -->
         <input type="number" name="num1">
+        <!-- Label for the subtraction symbol -->
         <label class="label">-</label>
+        <!-- Input field for the second number -->
         <input type="number" name="num2">
+        <!-- Button to submit the form -->
         <button type="submit">Subtract</button>
     </form>
+    
+    <!-- Heading and form for multiplication operation -->
     <h1>Multiplication</h1>
     <form title="Multiply" action="/multiplication" method="GET">
+        <!-- Input field for the first number -->
         <input type="number" name="num1">
+        <!-- Label for the multiplication symbol -->
         <label class="label">×</label>
+        <!-- Input field for the second number -->
         <input type="number" name="num2">
+        <!-- Button to submit the form -->
         <button type="submit">Multiply</button>
     </form>
+    
+    <!-- Heading and form for division operation -->
     <h1>Division</h1>
     <form title="Divide" action="/division" method="GET">
+        <!-- Input field for the first number -->
         <input type="number" name="num1">
+        <!-- Label for the division symbol -->
         <label class="label">÷</label>
+        <!-- Input field for the second number -->
         <input type="number" name="num2">
+        <!-- Button to submit the form -->
         <button type="submit">Divide</button>
     </form>
 </body>
